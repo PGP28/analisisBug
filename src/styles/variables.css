@@ -1,0 +1,68 @@
+:root {
+  /* Paleta BICE */
+  --bice-canvas:      #002D62;
+  --bice-sidebar:     #001A3D;
+  --bice-card-dark:   #001A3D;
+  --bice-accent:      #F5A623;
+  --bice-accent-dark: #c07800;
+  --bice-white:       #FFFFFF;
+
+  /* Texto */
+  --bice-text-primary:   #1a3a60;
+  --bice-text-muted:     #3a5a70;
+  --bice-text-light:     #a0c0d8;
+  --bice-text-sidebar:   #5a8aaa;
+
+  /* Bordes y fondos claros */
+  --bice-border:      #dde4ee;
+  --bice-bg-light:    #f0f4f8;
+  --bice-bg-row:      #f8fafc;
+
+  /* Barras tipo bug */
+  --bar-otro:  #1a3a6a;
+  --bar-http:  #c0392b;
+  --bar-ui:    #2e86c1;
+  --bar-func:  #27ae60;
+  --bar-api:   #95a5a6;
+  --bar-cod:   #bdc3c7;
+  --bar-head:  #8e44ad;
+
+  /* Barras devs */
+  --dev-1: #1e5fa8;
+  --dev-2: #2874a6;
+  --dev-3: #5dade2;
+  --dev-4: #85c1e9;
+  --dev-5: #aed6f1;
+  --dev-6: #d6eaf8;
+
+  /* Barras módulos */
+  --mod-1: #c0392b;
+  --mod-2: #e67e22;
+  --mod-3: #27ae60;
+  --mod-4: #1abc9c;
+  --mod-5: #3498db;
+  --mod-6: #9b59b6;
+
+  /* Heatmap */
+  --hm-1: #154360;
+  --hm-2: #1a5276;
+  --hm-3: #1f618d;
+  --hm-4: #2471a3;
+  --hm-5: #1b4f72;
+
+  /* Alertas */
+  --alert-alto-bg:     #fdeaea;
+  --alert-alto-color:  #c0392b;
+  --alert-alto-border: #f5b7b1;
+  --alert-medio-bg:    #fef5e7;
+  --alert-medio-color: #e67e22;
+  --alert-medio-border:#fad7a0;
+  --alert-normal-bg:   #eafaf1;
+  --alert-normal-color:#27ae60;
+  --alert-normal-border:#a9dfbf;
+
+  /* Layout */
+  --sidebar-width: 190px;
+  --border-radius: 8px;
+  --border-radius-sm: 4px;
+}

@@ -1,0 +1,29 @@
+/* ── Botón Aplicar filtros ── */
+.sidebar-apply-btn {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1.5px solid #1a3a50;
+  background: transparent;
+  color: #5a8aaa;
+  font-size: 8.5px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  transition: all .2s;
+  letter-spacing: .3px;
+}
+.sidebar-apply-btn:hover {
+  border-color: var(--bice-accent);
+  color: var(--bice-accent);
+}
+.sidebar-apply-btn.has-changes {
+  background: var(--bice-accent);
+  border-color: var(--bice-accent);
+  color: var(--bice-canvas);
+  animation: pulse-btn .8s ease-in-out infinite alternate;
+}
+@keyframes pulse-btn {
+  from { opacity: 1; }
+  to   { opacity: .85; }
+}
